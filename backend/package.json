@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is an amazaing ecommerce project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaqarAhmadWD/sequalize-ecommerce.git"
+  },
+  "keywords": [
+    "store",
+    "buy",
+    "sell",
+    "ecommerce",
+    "product",
+    "items"
+  ],
+  "author": "waqar-ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaqarAhmadWD/sequalize-ecommerce/issues"
+  },
+  "homepage": "https://github.com/WaqarAhmadWD/sequalize-ecommerce#readme",
+  "dependencies": {
+    "@sequelize/mysql": "^7.0.0-alpha.41",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-router": "^0.0.1",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
